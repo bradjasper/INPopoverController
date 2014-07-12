@@ -25,6 +25,9 @@
 /** Color to use for drawing a 1px highlight just below the top. Can be nil. Changes to this value are not animated. **/
 @property (nonatomic, strong) NSColor *topHighlightColor;
 
+/** Color to use for arrow background color. Can be nil. Changes to this value are not animated. **/
+@property (nonatomic, strong) NSColor *arrowColor;
+
 /** The width of the popover border, drawn using borderColor. Default value: 0.0 (no border). Changes to this value are not animated. **/
 @property (nonatomic, assign) CGFloat borderWidth;
 

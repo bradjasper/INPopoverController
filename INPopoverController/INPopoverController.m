@@ -205,6 +205,11 @@
 	return _popoverWindow.frameView.topHighlightColor;
 }
 
+- (NSColor *)arrowColor
+{
+	return _popoverWindow.frameView.arrowColor;
+}
+
 - (CGFloat)cornerRadius
 {
 	return _popoverWindow.frameView.cornerRadius;
@@ -251,6 +256,11 @@
 - (void)setTopHighlightColor:(NSColor *)newTopHighlightColor
 {
 	_popoverWindow.frameView.topHighlightColor = newTopHighlightColor;
+}
+
+- (void)setArrowColor:(NSColor *)newArrowColor
+{
+	_popoverWindow.frameView.arrowColor = newArrowColor;
 }
 
 - (void)setCornerRadius:(CGFloat)cornerRadius
